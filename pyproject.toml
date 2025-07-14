@@ -3,13 +3,9 @@ name = "snpxarray"
 version = "0.1.0"
 description = "Convert PySnpTools BED files to xarray DataArrays"
 readme = "README.md"
+license = { text = "MIT OR Apache-2.0" }
 requires-python = ">=3.13"
-dependencies = [
-    "xarray>=2025.7.1",
-    "pysnptools>=0.5.14",
-    "numpy>=2.3.1",
-    "zarr>=3.0.10",
-]
+dependencies = ["xarray>=2025.7.1", "pysnptools>=0.5.14", "zarr>=3.0.10"]
 
 [project.optional-dependencies]
 dev = ["jupyter", "matplotlib", "seaborn"]

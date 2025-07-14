@@ -30,6 +30,9 @@ uv add snpxarray
 ## Dependencies
 
 - xarray
-- pysnptools
-- numpy
+- pysnptools  
 - zarr
+
+## License
+
+MIT OR Apache-2.0

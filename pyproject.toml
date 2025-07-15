@@ -1,21 +1,18 @@
 [project]
 name = "snpxarray"
 version = "0.1.0"
-description = "Convert PySnpTools BED files to xarray DataArrays"
+description = "Show slicing and dicing with PySnpTools, Xarray/Zarr, and sgkit."
 readme = "README.md"
 license = { text = "MIT OR Apache-2.0" }
-requires-python = ">=3.13"
-dependencies = ["xarray>=2025.7.1", "pysnptools>=0.5.14", "zarr>=3.0.10"]
-
-[project.optional-dependencies]
-dev = ["jupyter", "matplotlib", "seaborn"]
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
-[tool.hatch.build.targets.wheel]
-include = ["snpxarray.ipynb", "README.md"]
+requires-python = ">=3.11"
+dependencies = [
+    "xarray>=2024.6.0",
+    "pysnptools>=0.5.14",
+    "zarr>=3.0.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "jupyter>=1.0.0",
+]
 
 [tool.uv]
-dev-dependencies = ["jupyter>=1.0.0", "matplotlib>=3.5.0", "seaborn>=0.11.0"]
+dev-dependencies = []

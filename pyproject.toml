@@ -4,14 +4,11 @@ version = "0.1.0"
 description = "Show slicing and dicing with PySnpTools, Xarray/Zarr, and sgkit."
 readme = "README.md"
 license = { text = "MIT OR Apache-2.0" }
-requires-python = ">=3.11"
+requires-python = ">=3.10,<3.11"
 dependencies = [
-    "xarray>=2024.6.0",
     "pysnptools>=0.5.14",
-    "zarr>=3.0.0",
-    "pandas>=2.0.0",
-    "numpy>=1.24.0",
-    "jupyter>=1.0.0",
+    "jupyter>=1.1.1",
+    "sgkit>=0.10.0,<0.11.0",
 ]
 
 [tool.uv]

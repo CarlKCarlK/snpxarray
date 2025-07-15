@@ -1,2 +1,3 @@
 all_chr.maf0.001.N300.zarr/*
 .venv/*
+plink_data.zarr/*
